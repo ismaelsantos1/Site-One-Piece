@@ -41,6 +41,46 @@ body{
     width: 94.98em;
     height: 46em;
 }
-.apresetation{
+.apresentation{
     color: white;
+    background-color: #0043c830;
+    padding-left: 13.8em;
+    font-size: 16.1px;
+    font-family: 'Patua One', serif;
+    width: 70em;
+    height: 90px;
+    margin: 16px 10.5em 40px;
+    display: flex;
+    align-items: center;
+}
+
+/*#personagens{
+    background-color: #FFB800;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+    align-items: stretch;
+    width: 122px;
+    height: 241px;
+}*/
+
+.luffy{
+    background-color: #FFB800;
+    display: grid;
+    align-items: stretch;
+    width: 200px; 
+    height: 440px;
+    margin-left: 3em;
+}
+
+.luffy img {
+    
+}
+
+.aboutluffy{
+    font-family: 'Patua One', serif;
+    font-size: 14px;
+    padding: 6px;
+    padding-top: 80px;
+    margin: 6px 8px 0px;
+    text-align: center;
 }
