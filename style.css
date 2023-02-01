@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0057ff;
+    height: 100vh;
+    grid-template-areas: 
+        "head aside"
+        "main main"
+        "footer footer";
+    grid-template-rows: 30px 1frm 40px;
+    grid-template-columns: 1fr 80px;
+    scroll-timeline: smooth;
+}
+
+.head{
+    background-color: #FFB800;
+    width: 94.98em;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagehead{
+    position: relative;
+    width: 138px;
+    height: 71px;
+    left: 42em;
+}
+.menuicon{
+    width: 40px;
+    height: 40px;
+    padding: 2.5px;
+    margin: 10px 8px 6px;
+
+}
+.backgroundhead{
+    box-sizing: border-box;
+    position: relative;
+    width: 94.98em;
+    height: 46em;
+}
+.apresetation{
+    color: white;
+}
