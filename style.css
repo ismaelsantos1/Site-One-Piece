@@ -2,17 +2,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*Preciso ver isso*/
 body{
     background-color: #0057ff;
-    height: 100vh;
-    width: 100vw;
-    grid-template-areas: 
-        "head aside"
-        "main main"
-        "footer footer";
-    grid-template-rows: 30px 1frm 40px;
-    grid-template-columns: 1fr 80px;
+    background-size: 100vh;
+    min-width: 300px;
+    max-width: 800px;
     scroll-timeline: smooth;
 }
 
@@ -84,6 +79,7 @@ body{
 
 .sanji, .luffy, .nami, .robin{
     background-color: #FFB800;
+    border-radius: 19px;
     display: flex;    
     width: 200px; 
     height: 440px;
@@ -100,6 +96,7 @@ body{
     height: 440px;
     margin-left: 2em;
     position: inherit;
+    border-radius: 19px;
 }
 
 .aboutzoro{
@@ -118,4 +115,68 @@ body{
 .sanjiperfil{
     margin-top: 1.2em;
     margin-left: 3em;
+}
+
+.aboutanime{
+    font-size: 1.4em;
+    padding-top: 11px;
+    margin-top: 10em;
+    margin-left: 24em;
+    width: 4in;
+    height: 4rem;
+    text-align: center;
+    border: 6px solid rgb(255 184 0);
+    background-color: rgb(255 214 0);
+    border-radius: 50px;
+}
+
+/*#morecontents{
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}*/
+.acompanhe{
+    font-family: 'Patua One', sans-serif;
+    font-size: 15px;
+    width: 10px;
+    height: 8px;
+    color: rgb(255 184 0);
+    margin: 18em 20em 4em;
+    text-align: center;
+    padding-left: 25em;
+}
+
+.ultimoseps{
+    color: rgb(255, 184, 0);
+    font-family: 'Patua One';
+    font-size: 15px;
+    margin-left: 25em;
+    width: 20em;
+    height: 0px;
+}
+
+.ultimoscaps{
+    color: rgb(255, 184, 0);
+    font-family: 'Patua One';
+    font-size: 15px;
+    margin-left: 60em;
+    width: 20em;
+    height: 0px;
+}
+
+
+#onepieceproducts{
+    margin: 20em 32em 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    width: 10em;
+    height: auto;
+    background-color: rgb(255 214 0);
+    border-radius: 23px;
+    border: 8px double rgb(255 184 0);
+}
+
+.footer{
+    
 }
